@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Idul Fitri 1447 H</title>
+  <link rel="stylesheet" href="coba1.css">
+</head>
+<body>
+
+<!-- Background Pattern Halus -->
+<div id="pattern-bg"></div>
+
+<!-- HALAMAN PEMBUKA - LANGIT MALAM -->
+<div class="opening page" id="opening">
+  
+  <!-- Bintang tetap (berkedip) -->
+  <div class="bintang-tetap">
+    <div class="bintang bintang1"></div>
+    <div class="bintang bintang2"></div>
+    <div class="bintang bintang3"></div>
+    <div class="bintang bintang4"></div>
+    <div class="bintang bintang5"></div>
+    <div class="bintang bintang6"></div>
+    <div class="bintang bintang7"></div>
+    <div class="bintang bintang8"></div>
+  </div>
+  
+  <!-- Bintang jatuh (shooting star) -->
+  <div class="bintang-jatuh bintang-jatuh1"></div>
+  <div class="bintang-jatuh bintang-jatuh2"></div>
+  <div class="bintang-jatuh bintang-jatuh3"></div>
+  
+  <!-- Bulan besar -->
+  <div class="bulan-gede"></div>
+  
+  <!-- Judul -->
+  <h1 class="title">
+    ✨ Selamat Idul Fitri ✨
+    <span>1447 H</span>
+  </h1>
+  
+  <!-- Subtitle -->
+  <div class="subtitle">
+    🌙 Mohon Maaf Lahir & Batin 🌙
+  </div>
+  
+  <!-- Tombol buka ucapan -->
+  <button class="btn" onclick="openPage()">✨ Buka Ucapan ✨</button>
+</div>
+
+<!-- HALAMAN UTAMA UCAPAN -->
+<div class="main page hidden" id="main">
+  <h2 id="greeting"></h2>
+  
+  <div class="message" id="message"></div>
+  
+  <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+    <button class="btn btn-back" onclick="goBack()">⬅ Kembali</button>
+  </div>
+  
+  <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.8;">
+    ✨ Taqabbalallahu minna wa minkum ✨
+  </p>
+</div>
+
+<script src="coba1.js"></script>
+</body>
+</html>
