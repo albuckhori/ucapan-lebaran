@@ -26,9 +26,9 @@ const buttonSound = new Audio();
 buttonSound.volume = 0.3;
 buttonSound.src = "fassounds-eid-mubarak-arabic-ramadan-background-music-301947.mp3";
 
-// ============================================
+// ===========================================
 // FUNGSI-FUNGSI
-// ============================================
+// ===========================================
 
 function openPage() {
   document.getElementById("opening").classList.add("hidden");
