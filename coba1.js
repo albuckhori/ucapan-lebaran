@@ -1,7 +1,5 @@
 // PESAN LEBARAN
-const messageText = `🌙✨ *Selamat Hari Raya Idul Fitri 1447 H* ✨🌙
-
-Di hari yang suci ini,
+const messageText = `Di hari yang suci ini,
 saya Ananda al buckhori dan keluarga
 maaf atas segala khilaf dan salah
 Baik yang disengaja maupun tidak terucap.
@@ -57,7 +55,7 @@ function openPage() {
   if (name) {
     document.getElementById("greeting").innerText = "🌺 Untuk " + name + " 🌺";
   } else {
-    document.getElementById("greeting").innerText = "🌺 Untuk Keluarga & Sahabat 🌺";
+    document.getElementById("greeting").innerText = "🌙✨ *Selamat Hari Raya Idul Fitri 1447 H* ✨🌙";
   }
   
   typeMessage();
